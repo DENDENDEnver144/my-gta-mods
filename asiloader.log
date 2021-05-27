@@ -1,0 +1,30 @@
+// GTA V ASI LOADER (build May  2 2015)
+//     (C) Alexander Blade 2015
+LIB: "C:\WINDOWS\system32\dinput8.dll" => 00007FF92E530000
+API: "DirectInput8Create" => 00007FF92E532230
+API: "DllCanUnloadNow" => 00007FF92E545220
+API: "DllGetClassObject" => 00007FF92E545330
+API: "DllRegisterServer" => 00007FF92E554740
+API: "DllUnregisterServer" => 00007FF92E5549C0
+LOADER: Loading *.asi plugins
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\GTAV.HeapAdjuster.asi"
+     "GTAV.HeapAdjuster.asi" => 00007FF944350000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\LUA.asi"
+     "LUA.asi" => 00007FF904750000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\Menyoo.asi"
+     "Menyoo.asi" => 00007FF904430000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\openCameraV.asi"
+     "openCameraV.asi" => 00007FF943930000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\OpenIV.asi"
+     "OpenIV.asi" => 00007FF9434A0000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\PackfileLimitAdjuster.asi"
+     "PackfileLimitAdjuster.asi" => 00007FF93A9A0000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\SceneDirector.asi"
+     "SceneDirector.asi" => 00007FF90C9A0000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\ScriptHookVDotNet.asi"
+     "ScriptHookVDotNet.asi" => 00007FF95E900000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\SlowMotionToggle.asi"
+     "SlowMotionToggle.asi" => 00007FF939E80000
+ASI: Loading "C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\the_red_house.asi"
+     "the_red_house.asi" => 00007FF926830000
+LOADER: Finished loading *.asi plugins

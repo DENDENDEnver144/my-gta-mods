@@ -1,0 +1,22 @@
+// GTA V SCRIPT HOOK (build Mar 20 2021, v1.0.2245.0)
+//     (C) Alexander Blade 2015-2021
+[07:32:03] INIT: Started
+[07:32:03] INIT: Success, game version is VER_1_0_2245_0_STEAM
+[07:32:03] INIT: Registering script 'LUA.asi' (0x00007FF90477E6A0)
+[07:32:04] INIT: Registering script 'Menyoo.asi' (0x00007FF9044B9EF0)
+[07:32:04] INIT: Registering additional script thread 'Menyoo.asi' (0x00007FF9044CA3A0)
+[07:32:05] INIT: Registering script 'SceneDirector.asi' (0x00007FF90C9E73A0)
+[07:32:05] INIT: Registering script 'ScriptHookVDotNet.asi' (0x00007FF95E901380)
+[07:32:05] INIT: Registering script 'SlowMotionToggle.asi' (0x00007FF939E81F80)
+[07:32:05] INIT: Registering script 'the_red_house.asi' (0x00007FF92684B9D0)
+[07:32:49] INIT: Pool 1 extended
+[07:32:49] INIT: Pool 2 extended
+[07:32:49] INIT: Pool 3 extended
+[07:32:49] INIT: Pool 4 extended
+[07:32:55] INIT: GtaThread collection size 189
+[07:32:55] INIT: wnd proc 0x00000000FFFF1DE1
+[07:32:55] INIT: IDXGISwapChain 0x00007FF90A50C208 (0x00007FF90A434510)
+[07:32:55] INIT: IDXGISwapChain set
+[07:32:55] INIT: DX init started
+[07:32:55] INIT: DX feature level A000
+[07:32:55] INIT: DX init succeeded

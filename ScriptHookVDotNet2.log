@@ -1,0 +1,120 @@
+[06:16:35] [DEBUG] Created script domain 'ScriptDomain_E81EA8AC' with v2.10.2.
+[06:16:35] [DEBUG] Loading scripts from 'C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto V\scripts' into script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:35] [INFO] Loading assembly 'EnhancedMeleeCombat.dll' ...
+[06:16:36] [DEBUG] Found 16 script(s) in 'EnhancedMeleeCombat.dll'.
+[06:16:36] [INFO] Loading assembly 'NativeUI.dll' ...
+[06:16:36] [DEBUG] Found 1 script(s) in 'NativeUI.dll'.
+[06:16:36] [INFO] Loading assembly 'NoParachute.dll' ...
+[06:16:36] [DEBUG] Found 1 script(s) in 'NoParachute.dll'.
+[06:16:36] [DEBUG] Starting 18 script(s) ...
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Configuration' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Configuration'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Knockout' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Knockout'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.MeleeSound' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.MeleeSound'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Crowd' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Crowd'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Gore' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Gore'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Foetal' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Foetal'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.DodgeTimer' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.DodgeTimer'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Counters' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Counters'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Stance' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Stance'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Block' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Block'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.BlockHitHandler' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.BlockHitHandler'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.BlockNPC' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.BlockNPC'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.Main' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.Main'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.GroundTackle' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.GroundTackle'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.KnifeTackle' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.KnifeTackle'.
+[06:16:36] [DEBUG] Instantiating script 'EnhancedMeleeCombat.NPCTakedowns' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'EnhancedMeleeCombat.NPCTakedowns'.
+[06:16:36] [DEBUG] Instantiating script 'NativeUI.BigMessageThread' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'NativeUI.BigMessageThread'.
+[06:16:36] [DEBUG] Instantiating script 'No_Parachute.Main' in script domain 'ScriptDomain_E81EA8AC' ...
+[06:16:36] [DEBUG] Started script 'No_Parachute.Main'.
+[06:16:37] [ERROR] Caught fatal unhandled exception:
+System.TypeInitializationException: The type initializer for 'GTA.Native.MemoryAccess' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GTA.Native.MemoryAccess..cctor()
+   --- End of inner exception stack trace ---
+   at GTA.Native.MemoryAccess.GetPedHandles(Vector3 position, Single radius)
+   at GTA.World.GetNearbyPeds(Vector3 position, Single radius)
+   at EnhancedMeleeCombat.Knockout.OnTick(Object sender, EventArgs e)
+   at GTA.Script.raise_Tick(Object value0, EventArgs value1)
+   at GTA.Script.MainLoop()
+[06:16:37] [ERROR] Caught fatal unhandled exception:
+System.TypeInitializationException: The type initializer for 'GTA.Native.MemoryAccess' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GTA.Native.MemoryAccess..cctor()
+   --- End of inner exception stack trace ---
+   at GTA.Native.MemoryAccess.GetPedHandles(Vector3 position, Single radius)
+   at GTA.World.GetNearbyPeds(Vector3 position, Single radius)
+   at EnhancedMeleeCombat.Crowd.OnTick(Object sender, EventArgs e)
+   at GTA.Script.raise_Tick(Object value0, EventArgs value1)
+   at GTA.Script.MainLoop()
+[06:16:37] [ERROR] Caught fatal unhandled exception:
+System.TypeInitializationException: The type initializer for 'GTA.Native.MemoryAccess' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GTA.Native.MemoryAccess..cctor()
+   --- End of inner exception stack trace ---
+   at GTA.Native.MemoryAccess.GetPedHandles(Vector3 position, Single radius)
+   at GTA.World.GetNearbyPeds(Ped ped, Single radius)
+   at EnhancedMeleeCombat.Gore.OnTick(Object sender, EventArgs e)
+   at GTA.Script.raise_Tick(Object value0, EventArgs value1)
+   at GTA.Script.MainLoop()
+[06:16:37] [ERROR] Caught fatal unhandled exception:
+System.TypeInitializationException: The type initializer for 'GTA.Native.MemoryAccess' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GTA.Native.MemoryAccess..cctor()
+   --- End of inner exception stack trace ---
+   at GTA.Native.MemoryAccess.GetPedHandles(Vector3 position, Single radius)
+   at GTA.World.GetNearbyPeds(Vector3 position, Single radius)
+   at EnhancedMeleeCombat.Foetal.OnTick(Object sender, EventArgs e)
+   at GTA.Script.raise_Tick(Object value0, EventArgs value1)
+   at GTA.Script.MainLoop()
+[06:16:37] [ERROR] Caught fatal unhandled exception:
+System.TypeInitializationException: The type initializer for 'GTA.Native.MemoryAccess' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GTA.Native.MemoryAccess..cctor()
+   --- End of inner exception stack trace ---
+   at GTA.Native.MemoryAccess.GetPedHandles(Vector3 position, Single radius)
+   at GTA.World.GetNearbyPeds(Vector3 position, Single radius)
+   at EnhancedMeleeCombat.Stance.OnTick(Object sender, EventArgs e)
+   at GTA.Script.raise_Tick(Object value0, EventArgs value1)
+   at GTA.Script.MainLoop()
+[06:16:37] [ERROR] Caught fatal unhandled exception:
+System.TypeInitializationException: The type initializer for 'GTA.Native.MemoryAccess' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GTA.Native.MemoryAccess..cctor()
+   --- End of inner exception stack trace ---
+   at GTA.Native.MemoryAccess.GetPedHandles(Vector3 position, Single radius)
+   at GTA.World.GetNearbyPeds(Vector3 position, Single radius)
+   at EnhancedMeleeCombat.BlockNPC.OnTick(Object sender, EventArgs e)
+   at GTA.Script.raise_Tick(Object value0, EventArgs value1)
+   at GTA.Script.MainLoop()
+[06:16:37] [ERROR] Caught fatal unhandled exception:
+System.TypeInitializationException: The type initializer for 'GTA.Native.MemoryAccess' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GTA.Native.MemoryAccess..cctor()
+   --- End of inner exception stack trace ---
+   at GTA.Native.MemoryAccess.GetPedHandles(Vector3 position, Single radius)
+   at GTA.World.GetNearbyPeds(Vector3 position, Single radius)
+   at EnhancedMeleeCombat.NPCTakedowns.OnTick(Object sender, EventArgs e)
+   at GTA.Script.raise_Tick(Object value0, EventArgs value1)
+   at GTA.Script.MainLoop()
+[06:16:42] [ERROR] Script 'EnhancedMeleeCombat.Crowd' is not responding! Aborting ...
+[06:16:42] [DEBUG] Aborted script 'EnhancedMeleeCombat.Crowd'.
+[06:16:47] [ERROR] Script 'EnhancedMeleeCombat.Gore' is not responding! Aborting ...
+[06:16:47] [DEBUG] Aborted script 'EnhancedMeleeCombat.Gore'.
+[06:16:52] [ERROR] Script 'EnhancedMeleeCombat.Foetal' is not responding! Aborting ...
+[06:16:52] [DEBUG] Aborted script 'EnhancedMeleeCombat.Foetal'.
+[06:16:57] [ERROR] Script 'EnhancedMeleeCombat.Stance' is not responding! Aborting ...
+[06:16:57] [DEBUG] Aborted script 'EnhancedMeleeCombat.Stance'.
+[06:17:02] [ERROR] Script 'EnhancedMeleeCombat.BlockNPC' is not responding! Aborting ...
+[06:17:02] [DEBUG] Aborted script 'EnhancedMeleeCombat.BlockNPC'.
+[06:17:07] [ERROR] Script 'EnhancedMeleeCombat.NPCTakedowns' is not responding! Aborting ...
+[06:17:07] [DEBUG] Aborted script 'EnhancedMeleeCombat.NPCTakedowns'.
